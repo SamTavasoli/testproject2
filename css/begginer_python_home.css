@@ -1,0 +1,406 @@
+@import url("https://fonts.googleapis.com/css2?family=Buda:wght@300&display=swap");
+.videoLink:link {
+  /* display: inline-block; */
+  text-decoration: none;
+  /* background-color:white; */
+  color: #0000ee;
+}
+.videoLink:visited {
+  text-decoration: none;
+  color: #c40548;
+}
+.videoLink:hover {
+  display: inline-block;
+  /* font-size: 110%; */
+  text-decoration: none;
+  background-color: black;
+  color: gold;
+  width: 80%;
+  padding: 2px;
+}
+.videoLink:active {
+  text-decoration: none;
+  background-color: skyblue;
+  color: #ee0000;
+}
+
+#onlinePythonCompiler {
+  background-color: black;
+  color: chartreuse;
+  border-radius: 5px;
+}
+
+body {
+  font-family: "Arial", "Buda", "Times New Roman", serif;
+  padding: 2px 2px;
+  padding-left: 0;
+  margin: 0;
+  /* background-color: #E9D5BD; */
+}
+
+/* header {
+     align-items: center;
+     display: inline-block;
+   }  */
+
+/* nav a {
+     color: white;
+     text-decoration: none;
+   }
+   
+   nav a:hover {
+     text-decoration: underline;
+   }
+   
+   nav ul {
+     list-style: none; 
+     display: grid;
+     grid-template-columns: repeat(auto-fit, minmax(6em, 1fr));
+     margin: 0;
+   }
+   
+   nav ul li {
+     text-align: center;
+   }
+   
+   nav {
+     color: #ee1010;
+     font-size: 120%;
+   } */
+
+#content {
+  /* max-width: auto; */
+  margin: 0 auto;
+  /* padding: 1em; */
+  background-color: white;
+}
+
+p {
+  /* padding: 1em; */
+  line-height: 1.6;
+  font-weight: 200;
+  font-size: 18px;
+}
+
+header,
+footer {
+  display: grid;
+  padding: 0.5em 10em;
+  /* align-items: left; */
+  /* width: auto; */
+  grid-column: 10/21;
+}
+
+header,
+footer {
+  background-color: #ffedb7;
+  /* transition: background-color 2s; */
+  color: white;
+  margin: 2em;
+  margin-left: 20%;
+  /* border: goldenrod solid 2px; */
+  border-radius: 10px;
+}
+
+/* header {
+    position: fixed;
+   } */
+
+/* @media screen and (max-width: 550px) {
+   
+     nav ul {
+       display: block;
+     }
+   
+     nav ul li {
+       text-align: left;
+     }
+     } */
+
+h1 {
+  font-size: 4em;
+  font-weight: bold;
+  text-align: center;
+  background-color: #c40548;
+  width: 40%;
+  margin: 0.1em auto;
+  border-radius: 30px;
+  border: 1px solid;
+  padding: 30px;
+  box-shadow: 5px 10px;
+  margin-bottom: 3em;
+}
+h2 {
+  font-size: 1.5em;
+  margin-top: 1em;
+  margin-bottom: 0.5em;
+  background-color: #e7cd6e;
+  max-width: fit-content;
+  text-align: center;
+  margin: 0 auto;
+  padding: 1% 3%;
+  border-radius: 5px;
+}
+
+h1,
+h2 {
+  font-family: Bookman;
+}
+
+#logoanimation {
+  color: black;
+  animation: myfirst 15s linear 0.01s infinite alternate;
+  font-weight: bolder;
+  position: relative;
+  padding-left: 0.5cm;
+  text-transform: capitalize;
+  font-size: 300%;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-shadow: 2px 2px 1px #004e90;
+}
+
+@keyframes myfirst {
+  100% {
+    color: yellow;
+    left: 100px;
+    top: 2px;
+  }
+  5% {
+    color: yellow;
+    left: 50px;
+    top: 50px;
+  }
+  5% {
+    color: gold;
+    left: 0px;
+    top: 100px;
+  }
+  5% {
+    color: yellow;
+    left: 0px;
+    top: 0px;
+  }
+  5% {
+    color: rgb(255, 0, 25);
+    left: 0px;
+    top: 0px;
+  }
+  5% {
+    color: rgb(255, 1, 213);
+    left: 0px;
+    top: 0px;
+  }
+  5% {
+    color: #00d3fd;
+    left: 0px;
+    top: 0px;
+  }
+  100% {
+    color: yellow;
+    left: 100px;
+    top: 0px;
+  }
+}
+
+ol li,
+ul li,
+p {
+  /* line-height: 1.5; */
+  /* font-size: 120%; */
+  font-family: minion, Cambria, Garmond;
+  line-height: 1.6;
+  font-weight: 200;
+  font-size: 18px;
+}
+
+.fa-ul li {
+  height: 40px;
+  list-style: none;
+}
+
+.pythonBeginner_homeGrid {
+  display: grid;
+  margin: 0 auto;
+  grid-template-columns: repeat(20, 1fr);
+  grid-gap: 2px;
+  /* padding-right: 1em; */
+}
+
+#menu {
+  width: 20%;
+  /* width:300px; */
+  /* background:white; */
+  position: absolute;
+  /* overflow:scroll; */
+  top: 0px;
+
+  padding-top: 20px;
+  margin-left: 0;
+}
+
+#menue {
+  overflow: auto; /*  check if change the side bar*/
+  grid-column: 1/5;
+  grid-row: auto;
+  height: 100%;
+  display: grid;
+  /* position: relative; */
+  /* width: 100%; */
+}
+
+#container {
+  display: grid;
+  /* position: relative; */
+  width: 100%;
+  top: 1em;
+  bottom: 5em;
+  /* z-index:1;  */
+  /*overflow:hidden; */ /* this line of code prevents the online compile from working */
+  background-color: rgb(255, 255, 236);
+  grid-column: 6/20;
+  grid-row: auto;
+  height: auto;
+  /* margin-left: auto; */
+  border-radius: 10px;
+}
+
+.onlineCompiler {
+  grid-column: auto;
+}
+
+#languageNameAnimation {
+  display: grid;
+  position: relative;
+  /* width:100%; */
+  grid-column: 6/19;
+  grid-row: auto;
+  height: 3cm;
+  font-size: 150%;
+}
+
+.videoLinksPosition {
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+  width: 18.5%;
+  background-color: peachpuff;
+}
+
+#pythonBeginnerTitle {
+  font-size: 200%;
+}
+
+.strongWords {
+  color: brown;
+}
+
+.substrongWords {
+  color: #004e90;
+}
+
+/* CSS for code snippets and code in Text  */
+
+/* pre {
+    background-color: black;
+    color:white;
+    padding: 1em;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    border-radius: 10px;
+    margin: 10px;
+  } */
+
+.codeInText {
+  background-color: rgb(232, 232, 232);
+  color: black;
+  padding: 2px;
+  border-radius: 1px;
+}
+
+.codeExample {
+  margin-top: 0;
+  padding-top: 0;
+}
+
+/* End of "CSS for code snippets and code in Text"  */
+.PbeforeLists {
+  margin-bottom: 0;
+  padding-bottom: 0;
+  color: darkcyan;
+  font-weight: 600;
+  text-shadow: 1px 1px rgb(141, 223, 223);
+}
+
+.PafterLists {
+  margin-top: 0;
+  padding-top: 0;
+}
+
+.operatorInText {
+  color: #ee0000;
+}
+
+.whatIsComuter {
+  width: 70%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+div.paragraph {
+  text-indent: 50px;
+}
+
+/* ********************************************** */
+
+#menu {
+  margin: 0;
+  padding: 0;
+  /* width: 300px; */
+  /* width: auto; */
+  position: fixed;
+  height: 100%;
+  overflow: auto;
+}
+
+#menu li {
+  display: block;
+  color: black;
+  padding: 8px;
+  text-decoration: none;
+}
+
+#menu li.active {
+  background-color: #04aa6d;
+  color: white;
+}
+
+/* #container {
+    margin-left: 200px;
+    padding: 1px 16px;
+    height: 1000px;
+  }    */
+
+/* @media screen and (max-width: 700px) {
+    #menu {
+      width: 100%;
+      height: auto;
+      position: relative;
+    }
+    #menu .videoLinksPosition {float: left;}
+    #container {margin-left: 0;}
+  }
+  
+  @media screen and (max-width: 400px) {
+    #menu .videoLinksPosition {
+      float: none;
+    }
+  
+  }  */
+
+iframe {
+  width: 100%;
+  height: 356px;
+  border: none;
+  margin: 0 0;
+}
